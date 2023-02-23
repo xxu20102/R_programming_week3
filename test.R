@@ -24,8 +24,3 @@ cacheSolve <- function(x, ...) {
   x$setinverse(a)
   a
 }
-
-B <- matrix(c(1,2,3,4),2,2)
-B1 <- makeCacheMatrix(B)
-B1
-cacheSolve(B1)
